@@ -1,3 +1,5 @@
+QUESTION 
+
 s2305012@ic2s110-17:~$ git config --global user.name "AlyRida/Mahjoub"
 s2305012@ic2s110-17:~$ git config --global user.name
 AlyRida/Mahjoub
@@ -5,3 +7,14 @@ s2305012@ic2s110-17:~$ git config --global user.email "ridasweyeh@gmail.com"
 s2305012@ic2s110-17:~$ git config --global user.email
 ridasweyeh@gmail.com
 
+QUESTION 2
+s2305012@ic2s110-17:~/Conduite de projets/TP1$ git add 'CR TP1' 
+
+Question 3 
+s2305012@ic2s110-17:~/Conduite de projets/TP1$ git commit -m1
+[master (commit racine) 982401e] 1
+ 1 file changed, 7 insertions(+)
+ create mode 100644 CR TP1
+
+Question 4
+ 
