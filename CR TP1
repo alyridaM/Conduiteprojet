@@ -1,0 +1,7 @@
+s2305012@ic2s110-17:~$ git config --global user.name "AlyRida/Mahjoub"
+s2305012@ic2s110-17:~$ git config --global user.name
+AlyRida/Mahjoub
+s2305012@ic2s110-17:~$ git config --global user.email "ridasweyeh@gmail.com"
+s2305012@ic2s110-17:~$ git config --global user.email
+ridasweyeh@gmail.com
+
