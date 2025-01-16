@@ -17,4 +17,94 @@ s2305012@ic2s110-17:~/Conduite de projets/TP1$ git commit -m1
  create mode 100644 CR TP1
 
 Question 4
+s2305012@ic2s110-17:~/Conduite de projets/TP1$ git add fich1.c
+s2305012@ic2s110-17:~/Conduite de projets/TP1$ git status
+Sur la branche master
+Modifications qui seront validées :
+  (utilisez "git restore --staged <fichier>..." pour désindexer)
+	nouveau fichier : fich1.c
+
+Question 5 
+
+s2305012@ic2s110-17:~/Conduite de projets/TP1$ git commit -m'ajout1'
+[master f1aa036] ajout1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fich1.c
  
+ Question 6 
+ s2305012@ic2s110-17:~/Conduite de projets/TP1$ touch fich2.c
+s2305012@ic2s110-17:~/Conduite de projets/TP1$ touch fich3.c
+s2305012@ic2s110-17:~/Conduite de projets/TP1$ git add fich2.c fich3.c
+s2305012@ic2s110-17:~/Conduite de projets/TP1$ git status
+
+Question 7 
+s2305012@ic2s110-17:~/Conduite de projets/TP1$ git commit -m'ajout2'
+
+
+Question 8
+s2305012@ic2s110-17:~/Conduite de projets/TP1$ git log
+commit e0ca4dcec3146d4ccbb57b1cf4f2ccccd928350f (HEAD -> master)
+Author: AlyRida/Mahjoub <ridasweyeh@gmail.com>
+Date:   Thu Jan 16 13:59:06 2025 +0100
+
+    ajout2
+
+commit f1aa036ca61ab0551bc9360a693330abf2e2867d
+Author: AlyRida/Mahjoub <ridasweyeh@gmail.com>
+Date:   Thu Jan 16 13:51:56 2025 +0100
+
+    ajout1
+
+QUESTION 8 9 10
+
+2305012@ic2s110-17:~/Conduite de projets/TP1$ git diff
+diff --git a/CR TP1 b/CR TP1
+index 28155f6..7acf7b0 100644
+--- a/CR TP1    
++++ b/CR TP1    
+@@ -1,3 +1,5 @@
++QUESTION 
++
+ s2305012@ic2s110-17:~$ git config --global user.name "AlyRida/Mahjoub"
+ s2305012@ic2s110-17:~$ git config --global user.name
+ AlyRida/Mahjoub
+@@ -5,3 +7,14 @@ s2305012@ic2s110-17:~$ git config --global user.email "ridasweyeh@gmail.com"
+ s2305012@ic2s110-17:~$ git config --global user.email
+ ridasweyeh@gmail.com
+ 
++QUESTION 2
++s2305012@ic2s110-17:~/Conduite de projets/TP1$ git add 'CR TP1' 
++
++Question 3 
++s2305012@ic2s110-17:~/Conduite de projets/TP1$ git commit -m1
++[master (commit racine) 982401e] 1
++ 1 file changed, 7 insertions(+)
++ create mode 100644 CR TP1
++
++Question 4
++ 
+diff --git a/fich1.c b/fich1.c
+index e69de29..5ae868c 100644
+--- a/fich1.c
++++ b/fich1.c
+@@ -0,0 +1,3 @@
++int main(){
++       printf("Hello World !");
++       }
+s2305012@ic2s110-17:~/Conduite de projets/TP1$ git log
+commit e0ca4dcec3146d4ccbb57b1cf4f2ccccd928350f (HEAD -> master)
+Author: AlyRida/Mahjoub <ridasweyeh@gmail.com>
+Date:   Thu Jan 16 13:59:06 2025 +0100
+
+    ajout2
+
+commit f1aa036ca61ab0551bc9360a693330abf2e2867d
+Author: AlyRida/Mahjoub <ridasweyeh@gmail.com>
+Date:   Thu Jan 16 13:51:56 2025 +0100
+
+    ajout1
+
+commit 982401ee1a1f5b8915529ea77b30229e786532f0
+Author: AlyRida/Mahjoub <ridasweyeh@gmail.com>
+Date:   Thu Jan 16 13:36:00 2025 +0100
+
